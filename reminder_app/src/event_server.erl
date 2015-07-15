@@ -1,11 +1,6 @@
 -module(event_server).
 -compile(export_all).
--record(state, {events,
-                clients}).
--record(event, {name="",
-                description="",
-                pid,
-                timeout={{1970,1,1},{0,0,0}}}).
+-include("../include/reminder.hrl").
 
 init() ->
   loop(#state{events=orddict:new(),
