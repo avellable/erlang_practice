@@ -1,6 +1,6 @@
 -module(event).
 -compile(export_all).
--include("../include/reminder.hrl").
+-include("reminder.hrl").
 
 start(EventName, Delay) ->
   spawn(?MODULE, init, [self(), EventName, Delay]).

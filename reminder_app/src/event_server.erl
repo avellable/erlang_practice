@@ -1,6 +1,6 @@
 -module(event_server).
 -compile(export_all).
--include("../include/reminder.hrl").
+-include("reminder.hrl").
 
 init() ->
   loop(#state{events=orddict:new(),
