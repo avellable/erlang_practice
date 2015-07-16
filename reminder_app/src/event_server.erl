@@ -1,3 +1,7 @@
+% Event Server
+% The implementaion of event server designed in 
+% http://learnyousomeerlang.com/designing-a-concurrent-application
+
 -module(event_server).
 -compile(export_all).
 -include("reminder.hrl").

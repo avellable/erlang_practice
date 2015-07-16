@@ -1,3 +1,7 @@
+% Event
+% The implementaion of event client(X,Y,Z) designed in 
+% http://learnyousomeerlang.com/designing-a-concurrent-application
+
 -module(event).
 -compile(export_all).
 -include("reminder.hrl").
