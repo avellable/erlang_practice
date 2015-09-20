@@ -1,6 +1,0 @@
-2015-09-20 22:47:14 =ERROR REPORT====
-GET / [cb_tutorial] 404 5ms2015-09-20 22:55:36 =ERROR REPORT====
-GET /greeting/hello [cb_tutorial] 404 52ms2015-09-20 23:23:55 =ERROR REPORT====
-"Error in controller, see console.log for details\n"
-2015-09-20 23:23:55 =ERROR REPORT====
-POST /greeting/create [cb_tutorial] 500 42ms
